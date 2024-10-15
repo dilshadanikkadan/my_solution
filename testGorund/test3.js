@@ -39,6 +39,5 @@ const employees = [
     }
     console.log(result);
   }
-
   console.log(hierarchicalOrder(employees));
   

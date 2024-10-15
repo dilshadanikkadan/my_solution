@@ -5,6 +5,7 @@ const temperatures = [73,74,75,71,69,72,76,73];
 
 function findDiff(list){
   const stack = [];
+  
   let result = new Array(list.length).fill(0);
 
   for (let i = 0; i < list.length; i++) {
