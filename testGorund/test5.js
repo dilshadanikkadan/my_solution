@@ -19,7 +19,6 @@ function findAvg(list){
         const student = list[i];
         const gradeTotal = student.grades.sum();
         const isAvg = gradeTotal /3
-       
     }
 }
 findAvg(students)

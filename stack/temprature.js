@@ -9,7 +9,7 @@ function findDiff(list){
   let result = new Array(list.length).fill(0);
 
   for (let i = 0; i < list.length; i++) {
-      while(stack.length  >0 && list[i] > list[stack.at(-1)]){
+      while(stack.length  > 0 && list[i] > list[stack.at(-1)]){
         const idx = stack.pop();
         result[idx]= i - idx
       }
