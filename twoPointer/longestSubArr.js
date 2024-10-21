@@ -9,7 +9,7 @@ function maxSubArray(arr){
    for(let j=0;j<arr.length;j++){
      const num = arr[j];
      const next_num = arr[j+1];
-     if(num + 1=== next_num){
+     if(num + 1 === next_num){
        count++
      }else{
        count++

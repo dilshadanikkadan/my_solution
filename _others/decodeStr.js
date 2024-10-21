@@ -2,15 +2,15 @@
 // Output: "accaccacc"
 const string = "3[abc2[d]]";
 
-
 function decodeStr(str) {
   let res = [];
   const stack = [];
 
-
   function rec(str,i) {
+
     let j = i + 2;
     let _str = "";
+
     while (str[j] !== "]") {
       _str += `${str[j]}`;
       if(str[i] === '['){

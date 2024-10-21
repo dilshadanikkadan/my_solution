@@ -19,5 +19,6 @@ function reverseArr(list) {
   }
     console.log(res);
 }
-
 reverseArr(array);
+
+

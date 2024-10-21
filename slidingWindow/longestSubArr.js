@@ -17,7 +17,7 @@ function longestSubArr(arr,k){
             i++;
         }
         
-        longest =Math.max(longest,j - i +1);   
+        longest = Math.max(longest,j - i +1);   
     }
     
    console.log(arr.slice(i,j-1));

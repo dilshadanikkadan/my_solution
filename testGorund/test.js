@@ -1,4 +1,5 @@
-// 3) Write a function to get a holiday by date range (01-11-2024 to 30-11-2024)
+// 3) Write a function to get a holiday by date range (01-11-2024 to 30-11-2024);
+
 const holidayList = [
   { name: "Pongal", Start: "2024-02-22", End: "2024-02-25" },
   { name: "New Year", Start: "2024-10-25", End: "2024-11-05" },

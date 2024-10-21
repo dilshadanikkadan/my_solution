@@ -17,11 +17,11 @@ function sliding(string){
         i = hash_map[char] +1;
 
     }
-        max =Math.max(max,j -i +1)
+        max = Math.max(max,j -i +1)
         
         hash_map[char]= j;
     
   }
-  console.log(max);
+
 }
 sliding(string)
