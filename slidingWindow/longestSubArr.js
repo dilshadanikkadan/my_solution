@@ -12,9 +12,6 @@ function longestSubArr(arr, k) {
     sum += el;
 
 
-
-    
-
     while (sum >= k) {
       sum -= arr[i];
       i++;
