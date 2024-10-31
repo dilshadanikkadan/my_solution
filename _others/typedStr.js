@@ -7,6 +7,8 @@ function typedString(s, t) {
   let left = s.length - 1;
   let right = t.length - 1;
 
+
+  
   while (left >=0 || right>=0) {
     if (s[left] == "#" || t[right] == "#") {
       if (s[left] == "#") {
