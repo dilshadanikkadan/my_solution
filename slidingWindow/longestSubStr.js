@@ -3,7 +3,7 @@ const string ='abcbdaac';
 function sliding(string){
 
  let hash_map ={};
-
+  
  let max =0;
 
  let i =0;
