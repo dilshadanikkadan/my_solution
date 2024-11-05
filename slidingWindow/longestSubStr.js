@@ -10,6 +10,8 @@ function sliding(string){
 
   for(let j = 0;j<string.length;j++){
 
+
+    
     const char = string[j];
     
     if(char in hash_map && hash_map[char] >= i){
