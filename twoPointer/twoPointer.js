@@ -27,10 +27,13 @@ function twoPointer(points,k){
        j++;
        
      }else{
+
         i++;
+
         if(i === j){
             j++
         }
+        
      }
    }
    return max

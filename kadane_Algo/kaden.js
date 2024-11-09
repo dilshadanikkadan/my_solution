@@ -4,7 +4,7 @@ function maxSubArray(arr) {
   let currentSum = 0;
   
   let max = arr[0];
-
+  
   for (const num of arr) {
 
     if (currentSum < 0) {

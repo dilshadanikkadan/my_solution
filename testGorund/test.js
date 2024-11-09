@@ -18,6 +18,7 @@ function range(start, end) {
 }
 
 function helper(item) {
+
   const result = [];
   let end_day, start_day, response;
   const { End, Start } = item;
@@ -52,6 +53,7 @@ function getTotalDays(list) {
     }
   }
   return Array.from(hash_set).length;
+  
 }
 console.log(getTotalDays(holidayList));
 

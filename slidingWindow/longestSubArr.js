@@ -3,18 +3,22 @@ const k = 10;
 let i = 0;
 
 function longestSubArr(arr, k) {
+  
   let sum = 0;
   let longest = 0;
 
   for (var j = 0; j < arr.length; j++) {
+
     const el = arr[j];
 
     sum += el;
 
 
     while (sum >= k) {
+
       sum -= arr[i];
       i++;
+
     }
 
     longest = Math.max(longest, j - i + 1);
