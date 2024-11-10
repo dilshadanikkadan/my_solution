@@ -9,6 +9,8 @@ function longestSubArr(arr, k) {
 
   for (var j = 0; j < arr.length; j++) {
 
+
+    
     const el = arr[j];
 
     sum += el;
