@@ -2,6 +2,7 @@ const s = "anagram";
 const t = "nagaram";
 
 function anagram(s,t) {
+   
     // creating hashMap  to store frq;
 
    let hash_map = {};
