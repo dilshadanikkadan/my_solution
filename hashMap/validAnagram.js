@@ -14,6 +14,7 @@ function anagram(s,t) {
         hash_map[char] = 1;
      }
    }
+
    
    for (const char of t) {
       if(char in hash_map){
