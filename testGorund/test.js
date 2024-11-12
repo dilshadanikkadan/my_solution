@@ -57,3 +57,5 @@ function getTotalDays(list) {
 }
 console.log(getTotalDays(holidayList));
 
+
+
