@@ -12,6 +12,8 @@ function twoPointer(points,k){
 
    let j = 1;
 
+   
+
    while(i < sortArr.length && j < sortArr.length){
 
     const el = sortArr[i];
