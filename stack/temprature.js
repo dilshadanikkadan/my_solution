@@ -15,7 +15,6 @@ function findDiff(list){
       }
       stack.push(i)
   }
-  return result;
-}
 
+  return result;
 console.log(findDiff(temperatures));
