@@ -18,11 +18,10 @@ function maxSubArray(arr){
        if(count > longest){
          longest = count;
          start = j - count +1;
-         end = j
+         end = j;
        }
        count = 0;
      }
-     
    }
 
    return arr.slice(start,end+1);
