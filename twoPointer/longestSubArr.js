@@ -8,6 +8,8 @@ function maxSubArray(arr){
    let start =0;
    let end = 0;
    
+
+   
    for(let j=0;j<arr.length;j++){
      const num = arr[j];
      const next_num = arr[j+1];
