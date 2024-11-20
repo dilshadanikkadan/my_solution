@@ -7,7 +7,6 @@ function maxSubArray(arr){
    let count = 0;
    let start =0;
    let end = 0;
-   
 
    
    for(let j=0;j<arr.length;j++){
