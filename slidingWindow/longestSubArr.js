@@ -9,8 +9,6 @@ function longestSubArr(arr, k) {
 
   for (var j = 0; j < arr.length; j++) {
 
-
-    
     const el = arr[j];
 
     sum += el;
@@ -27,6 +25,7 @@ function longestSubArr(arr, k) {
   }
 
   console.log(arr.slice(i, j - 1));
+  
   return longest;
 }
 

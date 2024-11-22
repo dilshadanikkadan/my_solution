@@ -13,7 +13,6 @@ function pointer(str){
       longest= Math.max(longest,j-i+1)
    }    
    console.log(longest);
-
 }
 
 pointer(string);
