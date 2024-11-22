@@ -6,11 +6,11 @@ function secondLargestStr(str){
     const arr = str.split(" ")
     let longest = 0;
     let secondLongest = 0;
-   for (let j = 0; j <arr.length; j++) {
+   for (let j = 0; j < arr.length ; j++) {
 
     const el = arr[j]
 
-      if(el.length > arr[longest].length){
+      if( el.length > arr[longest].length ){
           secondLongest = longest;
           longest = j
         }else if(el.length > arr[secondLongest]){
