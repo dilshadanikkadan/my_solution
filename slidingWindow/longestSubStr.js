@@ -7,7 +7,6 @@ function sliding(string){
  let max =0;
 
  let i =0;
-
   for(let j = 0;j<string.length;j++){
 
     const char = string[j];
