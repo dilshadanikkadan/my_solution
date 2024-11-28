@@ -14,4 +14,5 @@ function findFirstMissingLetter(arr) {
   return "no missing"
 }
 
+
 console.log(findFirstMissingLetter(arr));
