@@ -7,7 +7,6 @@ function secondLargestStr(str){
     let longest = 0;
     let secondLongest = 0;
    for (let j = 0; j < arr.length ; j++) {
-
     const el = arr[j]
 
       if( el.length > arr[longest].length ){
